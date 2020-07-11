@@ -1,0 +1,103 @@
+section {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+form {
+  min-height: 50vh;
+  min-width: 30%;
+  background: rgb(106, 168, 177);
+  background: linear-gradient(45deg, rgb(106, 168, 177), rgb(255, 211, 218));
+  color: rgb(49, 49, 49);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3vh 0;
+  font-family: "Raleway", sans-serif;
+  box-shadow: 0 10px 40px -14px rgba(0, 0, 0, 0.55);
+}
+
+form h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+form h2 {
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 1vh;
+}
+#bill-input {
+  width: 37%;
+}
+#split-input {
+  margin-bottom: 2vh;
+  width: 37%;
+}
+#rate {
+  margin-bottom: 6vh;
+}
+#warning {
+  color: white;
+}
+
+.btn {
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgba(136, 133, 133, 1);
+  background-color: rgb(81, 129, 136);
+  text-transform: uppercase;
+  outline: none;
+  margin-bottom: 3vh;
+  transition: all 0.5s;
+}
+.btn:hover {
+  color: rgb(49, 49, 49);
+  background-color: rgb(221, 188, 193);
+}
+.btn:focus {
+  outline: none;
+}
+
+input,
+select {
+  outline: none;
+  border: none;
+  padding: 5px 1%;
+  font-size: 1em;
+  color: rgb(49, 49, 49);
+  border-radius: 3px;
+}
+
+select {
+  margin-bottom: 2vh;
+}
+
+i {
+  width: 20px;
+}
+
+div {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 4vh;
+}
+div:last-of-type {
+  margin: 1vh 0;
+}
+
+p span {
+  color: white;
+}
+
+label {
+  display: block;
+  padding-bottom: 1vh;
+}

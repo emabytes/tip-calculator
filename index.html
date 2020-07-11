@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/3b1c75d67e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+        <form action="#">
+            <h1>Tip Calculator</h1>
+            <h2>Enter bill amount:</h2>
+            <div> <i class="fas fa-euro-sign"></i>
+                <input type="number" name="" id="bill-input">
+                <i class="fas fa-euro-sign"></i></div>
+            <h2>How many people are splitting the bill?</h2>
+            <div>
+                <i class="fas fa-users"></i>
+                <input type="number" name="" id="split-input">
+                <i class="fas fa-users"></i>
+            </div>
+            <div>
+                <label for="">What do you think about the service?</label>
+                <i class="fas fa-star"></i>
+                <select name="" id="rate">
+                    <option value="no rating" id="no-rate">Rate here</option>
+                    <option value="bad" id="bad">Bad</option>
+                    <option value="good" id="good">Good</option>
+                    <option value="great" id="great">Great</option>
+                </select>
+                <i class="fas fa-star"></i>
+            </div>
+            <button class="btn" onclick="calculate()">Calculate</button>
+            <p id="warning"></p>
+            <p>The tip amount is: <span id="tip-amount"></span></p>
+            <p>The total amount is: <span id="bill-amount"></span></p>
+            <p>Each person pays: <span id="per-person"></span></p>
+        </form>
+    </section>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
